@@ -204,10 +204,12 @@ section{
 
 .orange{
   color: var(--accent-yellow);
+  text-align: left;
 }
 
 .marrom{
-  color: #B38F5A;
+ color: #B38F5A;
+  text-align: left;
 }
 
 .bg-title{
