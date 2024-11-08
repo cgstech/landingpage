@@ -1,0 +1,146 @@
+/* Importação das fontes Montserrat e Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif; /* Fonte padrão para o corpo */
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main{
+    flex: 1;
+}
+
+/* Cores primárias do layout */
+:root {
+  --primary-dark: #0B131B;
+  --primary-light: #f5f5f5;
+  --accent-yellow: #E9BF7D;
+  --accent-orange: #B38F5A;
+}
+
+/* Container geral */
+.limitador {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Títulos e Parágrafos */
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif; /* Títulos com fonte Montserrat */
+  
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 20px 0 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 200;  
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: 'Poppins', sans-serif; /* Parágrafos com fonte Poppins */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Fim css titulos e paragrafos */
+
+/* Servctions */
+
+section{
+  text-align: center;
+}
+
+
+/* CSS parcerias, missao, valores, visao */
+
+.twob{
+  background: var(--primary-dark);
+}
+
+.orange{
+  color: var(--accent-yellow);
+}
+
+.marrom{
+  color: #B38F5A;
+}
+
+.bg-title{
+  background: var(--accent-yellow);
+  padding: 30px 0px 30px 0px;
+}
+
+.left-txt{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 21px;
+  color: #fff;
+}
+
+.left-txt p{
+  font-weight: 300;
+}
+
+.valores-bg{
+  width: 100%;
+}
+
+.valores-bg img{
+  border-radius: 30px;
+  width: 100%;
+  
+}
+
+/* Fim CSS parcerias, missao, valores, visao */
+
+/* CSS vantagens */
+
+
+.vantagens{
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.bgggg{
+  background: #E9BF7D;
+}
+
+.ff{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
