@@ -89,11 +89,13 @@ p {
 }
 
 .form-destaque .input-box{
-  width: 220px;
-  gap: 5px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
+
 
 .input-box input{
   padding: 20px 20px;
@@ -102,13 +104,13 @@ p {
 }
 
 .form-destaque button{
-  width: 100%;
-  padding: 10px;
-  margin-top: auto;
-  border: 1px solid #B38F5A;
-  background: var(--primary-dark);
-  color: var(--accent-yellow);
-  border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #B38F5A;
+    background: var(--primary-dark);
+    color: var(--accent-yellow);
+    border-radius: 10px;
+    margin: auto;
 }
 
 /* Fim css destaque */
