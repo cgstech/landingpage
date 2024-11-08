@@ -92,7 +92,6 @@ p {
 }
 
 header{
-  background: var(--primary-dark);
   width: 100%;
   position: sticky;
   top: 0;
