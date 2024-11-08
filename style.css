@@ -188,9 +188,7 @@ nav a{
 
 /* Servctions */
 
-section{
-  text-align: center;
-}
+
 
 
 /* CSS parcerias, missao, valores, visao */
@@ -254,6 +252,7 @@ section{
 
 .bgggg{
   background: #E9BF7D;
+  text-align: center;
 }
 
 .ff{
