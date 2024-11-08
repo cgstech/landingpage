@@ -74,6 +74,79 @@ p {
 
 /* Fim css titulos e paragrafos */
 
+
+/* Header e cabeçalho */
+
+.containerr{
+  max-width: 1200px;
+  margin: auto;
+ 
+}
+
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  background: var(--primary-dark);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  z-index: 10000;
+
+}
+
+header.rolagem{
+  background: #fff;
+  color: #21212a;
+  padding: 20px 4%;
+}
+
+header.rolagem a{
+  color: #21212a;
+}
+
+header h1 a {
+  display: block;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  gap: 55px;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btnContato button{
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background: #fe775a;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  border-radius: 4px;
+}
+
+#btnMenu{
+  display: none;
+}
+
+
+/* Fim header e cabeçalho */
+
 /* Servctions */
 
 section{
@@ -144,3 +217,33 @@ section{
   gap: 12px;
 }
 
+
+
+/* Media */
+
+
+@media only screen and (max-width: 650px) {
+
+  nav{
+      position: fixed !important;
+      top: 0;
+      left: -1000px;
+      flex-direction: column;
+      
+  }
+
+  #btnMenu{
+      color: #fe775a;
+      font-size: 1.8rem;
+      cursor: pointer;
+      display: block !important;
+  }
+
+  .ct-btn .btnContato{
+      display: none;
+      
+  }
+
+
+
+}
