@@ -89,21 +89,21 @@ p {
 }
 
 .form-destaque .input-box{
-  width: 220px;
+  width: 300px;
   gap: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .input-box input{
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #ddd;
 }
 
 .form-destaque button{
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   margin-top: auto;
   border: 1px solid #B38F5A;
   background: var(--primary-dark);
