@@ -357,112 +357,12 @@ footer .aside{
       
   }
 
-  .banner{
-      background-image: url(../imagens/bg.jpg);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
   
-  .banner .limitador{
-      backdrop-filter: blur(16px);
-      height: 500px;
-      
-  }
-  
-  .banner .container .flex{
-      display: flex;
-      flex-direction:column;
-      justify-content: space-between;
-      backdrop-filter: blur(16px);
-  }
-  .banner .container .flex .box-txt{
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-  }
-  
-  
-  .flex img{
-      max-width: 100%;
-      width: 50%;
-      display: none;
-  
-  }
-  
-  .flex .card-img{
-      width: 600px;
-  }
-  
-  .box-txt h2{
-      color: #fff;
-      width: 350px !important;
-      font-size: 2.5rem;
-      margin-top: 55px;
-  }
-  
-  .box-txt h2 span{
-      color: #ffae81;
-  }
-  
-  .box-txt p{
-      font-size: 1.8rem;
-      color: #fff;
-  }
-  
-  .box-txt form{
-      
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      gap: 15px;
-      height: 220px;
-      width: 100%;
-  }
-  
-  .box-txt form label{
-      color: #ffae81;
-      font-weight: 600;
-      font-size: 1.4rem;
-  }
-  
-  .box-txt form input{
-      padding: 15px 20px;
-      border-radius: 7px;
-      border: 1px solid #fff;
-  }
  .services{
   height: 100%;
   margin-bottom: 50px;
  }
 
- .ctwave{
-  height: 1000px !important; 
- }
-
-
- .ctwave .wave{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background: url(../imagens/wave.png);
-  background-size: 450px 100px !important;
-  }
-
-
-  
-
-  
- 
-  
   
   .liks{
       display: flex;
