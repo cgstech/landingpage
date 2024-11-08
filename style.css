@@ -58,12 +58,12 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 200;  
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 p {
@@ -218,6 +218,54 @@ section{
   gap: 12px;
 }
 
+.services{
+  width: 100%;
+  margin-top: 60px;
+  height: 100vh;
+  padding: 0 8%;
+
+  /* margin-bottom: 700px; 650 */
+}.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+
+}
+
+.cardService{
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: transparent;
+  transition: transform 0.5s, background 0.7s  ;
+}
+
+.cardService span {
+  font-size: 40px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 300;
+  color: #303ef7;
+}
+
+.cardService h3{
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.cardService:hover{
+  background: #303ef7;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+.cardService:hover span {
+  color: #fff;
+}
 
 
 /* Media */
@@ -245,6 +293,178 @@ section{
       
   }
 
+  .banner{
+      background-image: url(../imagens/bg.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .banner .limitador{
+      backdrop-filter: blur(16px);
+      height: 500px;
+      
+  }
+  
+  .banner .container .flex{
+      display: flex;
+      flex-direction:column;
+      justify-content: space-between;
+      backdrop-filter: blur(16px);
+  }
+  .banner .container .flex .box-txt{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+  
+  
+  .flex img{
+      max-width: 100%;
+      width: 50%;
+      display: none;
+  
+  }
+  
+  .flex .card-img{
+      width: 600px;
+  }
+  
+  .box-txt h2{
+      color: #fff;
+      width: 350px !important;
+      font-size: 2.5rem;
+      margin-top: 55px;
+  }
+  
+  .box-txt h2 span{
+      color: #ffae81;
+  }
+  
+  .box-txt p{
+      font-size: 1.8rem;
+      color: #fff;
+  }
+  
+  .box-txt form{
+      
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 15px;
+      height: 220px;
+      width: 100%;
+  }
+  
+  .box-txt form label{
+      color: #ffae81;
+      font-weight: 600;
+      font-size: 1.4rem;
+  }
+  
+  .box-txt form input{
+      padding: 15px 20px;
+      border-radius: 7px;
+      border: 1px solid #fff;
+  }
+ .services{
+  height: 100%;
+  margin-bottom: 50px;
+ }
+
+ .ctwave{
+  height: 1000px !important; 
+ }
 
 
+ .ctwave .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: url(../imagens/wave.png);
+  background-size: 450px 100px !important;
+  }
+
+
+  
+
+  .sobre article h2{
+      text-align: center;
+      padding-top: 10%;
+      margin-bottom: 30px;
+      font-weight: 600;
+      position: relative;
+      font-size: 1.8rem !important;
+  }
+  
+  .sobre article h2::after{
+      content: '';
+      background: #fe775a;
+      width: 100px;
+      height: 5px;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      
+  }
+  
+  .teste{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  
+  .teste img{
+      max-width: 100%;
+      width: 100%;
+  }
+  .liks{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       text-align: center;
+       height: 250px !important;
+       padding-top: 20px;
+       color: #fff;
+       gap: 25px;
+   }
+
+   .liks a{
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+   }
+  
+   footer .aside{
+      width: 100%;
+      
+      background: #eeeeee37;
+      height: 1px;
+   }
+   .direito{
+      color: #fff;
+      width: 100%;
+      text-align: center;
+      padding-top: 20px !important;
+   }
+  
+  
+  
+  
+
+ 
+
+
+ 
 }
