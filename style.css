@@ -347,7 +347,7 @@ footer .aside{
 
   #btnMenu{
       color:  var(--primary-dark);;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       cursor: pointer;
       display: block !important;
   }
