@@ -89,20 +89,20 @@ p {
 }
 
 .form-destaque .input-box{
-  width: 100%;
+  width: 220px;
   gap: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .input-box input{
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   border: 1px solid #ddd;
 }
 
 .form-destaque button{
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin-top: auto;
   border: 1px solid #B38F5A;
@@ -202,17 +202,18 @@ nav a{
 
 .orange{
   color: var(--accent-yellow);
-   text-align: left;
+  text-align: left;
 }
 
 .marrom{
-   color: #B38F5A;
-   text-align: left;
+  color: #B38F5A;
+  text-align: left;
 }
 
 .bg-title{
   background: var(--accent-yellow);
   padding: 30px 0px 30px 0px;
+  text-align: center;
 }
 
 .left-txt{
@@ -252,7 +253,6 @@ nav a{
 
 .bgggg{
   background: #E9BF7D;
-  text-align: center;
 }
 
 .ff{
