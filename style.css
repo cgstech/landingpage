@@ -158,6 +158,9 @@ section{
 
 .twob{
   background: var(--primary-dark);
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
 }
 
 .orange{
@@ -225,7 +228,8 @@ section{
   padding: 0 8%;
 
   /* margin-bottom: 700px; 650 */
-}.row{
+}
+.row{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
@@ -236,7 +240,6 @@ section{
   text-align: center;
   padding: 25px 10px;
   border-radius: 5px;
-  font-size: 1.2rem;
   cursor: pointer;
   background: transparent;
   transition: transform 0.5s, background 0.7s  ;
@@ -248,23 +251,84 @@ section{
   width: 100%;
   margin-bottom: 10px;
   font-family: 300;
-  color: #303ef7;
+  color: #0B131B;
 }
 
 .cardService h3{
-  font-weight: 600;
   margin-bottom: 8px;
 }
 
 .cardService:hover{
-  background: #303ef7;
-  color: #fff;
+  background: #0B131B;
+  color: var(--accent-yellow);
   transform: scale(1.05);
 }
 
 
 .cardService:hover span {
+  color: var(--accent-orange);
+}
+
+
+/* CSS footer */
+
+
+footer {
+  background: #0e0a08;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+
+.pe div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-align: center;
+   height: 100px;
+   padding-top: 60px;
+   color: #fff;
+   gap: 25px;
+}
+
+.pe div a{
+   color: #fff;
+   font-size: 1.8rem;
+}
+
+
+.liks{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   text-align: center;
+   height: 50px;
+   padding-top: 20px;
+   color: #fff;
+   gap: 25px;
+}
+
+.liks a{
+  display: block;
+  text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
+}
+
+footer .aside{
+  width: 100%;
+  
+  background: #eeeeee37;
+  height: 1px;
+}
+.direito{
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 
@@ -396,37 +460,10 @@ section{
 
   
 
-  .sobre article h2{
-      text-align: center;
-      padding-top: 10%;
-      margin-bottom: 30px;
-      font-weight: 600;
-      position: relative;
-      font-size: 1.8rem !important;
-  }
   
-  .sobre article h2::after{
-      content: '';
-      background: #fe775a;
-      width: 100px;
-      height: 5px;
-      position: absolute;
-      bottom: -20px;
-      left: 50%;
-      transform: translateX(-50%);
-      
-  }
-  
-  .teste{
-      display: flex;
-      flex-direction: column;
-  }
+ 
   
   
-  .teste img{
-      max-width: 100%;
-      width: 100%;
-  }
   .liks{
       display: flex;
       flex-direction: column;
@@ -458,13 +495,4 @@ section{
       text-align: center;
       padding-top: 20px !important;
    }
-  
-  
-  
-  
-
- 
-
-
- 
 }
