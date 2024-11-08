@@ -202,12 +202,12 @@ nav a{
 
 .orange{
   color: var(--accent-yellow);
-  text-align: left;
+   text-align: left;
 }
 
 .marrom{
- color: #B38F5A;
-  text-align: left;
+   color: #B38F5A;
+   text-align: left;
 }
 
 .bg-title{
